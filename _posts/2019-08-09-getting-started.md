@@ -1,15 +1,29 @@
 ---
-title: Getting Started
+title: 개발 블로그 시작
 author: cotes
-date: 2019-08-09 20:55:00 +0800
-categories: [Blogging, Tutorial]
-tags: [getting started]
+date: 2024-01-15 20:23:00 +0800
+categories: [블로그, 제작]
+tags: [github, blog]
 pin: true
-img_path: '/posts/20180809'
+img_path: /assets/img/post/20240115.jpeg
 ---
 
-## Prerequisites
+## 왜? 깃허브 블로그?
 
+개발을 꿈꾸면서 좀더 코드를 보고 듣고(?) 쓰는 시간을 늘려보고자 블로그를 시작해보자!
+이런 마음으로 구글링을 하면서 다른사람들의 기술블로그 탐방을 시작했습니다.
+
+그러면 Why? 깃허브 블로그를 선택했느냐?
+현재 블로그를 만들면서 배웠던 점들 위주로 이유를 설명해보면 3가지를 꼽을 수 있습니다.
+
+1. git을 사용한 상태관리 프로그램을 다루는 경험치
+2. 새로운 기술스택에 대한 배움과 구글링을 할때 적절한 검색어를 채택하는 경험치
+3. 영어울렁증 극복을 위한 영어와의 대면
+
+물론 변명이 될 수 있지만 저는 비전공자라서 터미널과 친하지 않아요...
+
+그럼 블로그를 만든 경험을 단계별로 써보겠습니다.
+![img-description](/assets/img/post/20240115.jpeg)
 Follow the instructions in the [Jekyll Docs](https://jekyllrb.com/docs/installation/) to complete the installation of the basic environment. [Git](https://git-scm.com/) also needs to be installed.
 
 ## Installation
@@ -36,7 +50,7 @@ $ bash tools/init
 ```
 
 > If you don't want to deploy your site on GitHub Pages, append option `--no-gh` at the end of the above command.
-{: .prompt-info }
+> {: .prompt-info }
 
 The above command will:
 
@@ -110,8 +124,8 @@ There are a few things to get ready for.
 Next, configure the _Pages_ service.
 
 1. Browse to your repository on GitHub. Select the tab _Settings_, then click _Pages_ in the left navigation bar. Then, in the **Source** section (under _Build and deployment_), select [**GitHub Actions**][pages-workflow-src] from the dropdown menu.  
-![Build source](pages-source-light.png){: .light .border .normal w='375' h='140' }
-![Build source](pages-source-dark.png){: .dark .normal w='375' h='140' }
+   ![Build source](pages-source-light.png){: .light .border .normal w='375' h='140' }
+   ![Build source](pages-source-dark.png){: .dark .normal w='375' h='140' }
 
 2. Push any commits to GitHub to trigger the _Actions_ workflow. In the _Actions_ tab of your repository, you should see the workflow _Build and Deploy_ running. Once the build is complete and successful, the site will be deployed automatically.
 
