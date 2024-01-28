@@ -1,3 +1,6 @@
 [submodule "assets/lib"]
 	path = assets/lib
 	url = https://github.com/cotes2020/chirpy-static-assets.git
+[submodule "sub"]
+	path = sub
+	url = https://github.com/woongdam777/secret_config.git
