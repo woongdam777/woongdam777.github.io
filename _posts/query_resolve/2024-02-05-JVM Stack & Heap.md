@@ -1,7 +1,7 @@
 ---
 title: JVM Stack & Heap
 author: w
-date: 2024-02-03 18:52:00 +0800
+date: 2024-02-05 19:32:00 +0800
 categories: [CS 지식 쌓기, 기초]
 tags: [question, resolve]
 ---
