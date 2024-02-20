@@ -16,8 +16,14 @@ tags: [oracle, cloud, docker]
 한마디 문구로 도커를 설치했다.
 
 ### 도커 컴포즈 세팅
-이미지를 다운로드하고
-일단 mysql부터 깔고 지우고 반복
+docker-compose 설치
+docker에 이미지를 올릴 때 명령어를 사용해서 올리는데
+docker-compose 를 사용하면 yml 파일로 관리를 할 수 있다.
+컨테이너를 살릴 때 마다 긴 명령어를 치기 귀찮으니 compose를 사용한다.
+
+```bash
+sudo apt install -y docker-compose
+```
 
 ### 외부주소랑 도커 컨테이너랑 연결이 되도록 하는 설정
 
