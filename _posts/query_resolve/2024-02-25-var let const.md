@@ -2,7 +2,7 @@
 title: var let const
 author: w
 date: 2024-02-25 16:20:00 +0800
-categories: [CS 지식 쌓기, JAVA]
+categories: [CS 지식 쌓기, JAVASCRIPT]
 tags: [question, resolve]
 ---
 
