@@ -9,8 +9,8 @@ img_path: /assets/img/post/
 
 ## docker mysql백업 및 복원
 
-### 백업 - 디비버로 쉽게 백업했음
-```sql
+### 백업 - dbeaver로 쉽게 백업했음
+```bash
 mysqldump -u root -p db_name > db_name_backup.sql
 ```
 
