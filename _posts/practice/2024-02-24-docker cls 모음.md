@@ -36,7 +36,7 @@ sudo apt-get install docker.io
 - sudo: "superuser do"의 약어, 특정 명령을 관리자 권한으로 실행
 - apt-get: Advanced Packaging Tool의 명령줄 인터페이스, Ubuntu와 Debian 계열의 리눅스 배포판에서 패키지를 관리하는 도구
 - install: 패키지 관리자를 통해 새로운 패키지를 설치하는 명령
-- docker.io: Docker 패키지의 이름입니다. 이 명령은 패키지 관리자를 통해 Docker를 설치
+- docker.io: Docker 패키지의 이름 이 명령은 패키지 관리자를 통해 Docker를 설치
 
 
 
