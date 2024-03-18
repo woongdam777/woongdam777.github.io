@@ -2,7 +2,7 @@
 title: oracle cloud에서 docker쓰기
 author: w
 date: 2024-02-10 16:53:00 +0800
-categories: [practice, oracle]
+categories: [cloud, oracle]
 tags: [oracle, cloud, docker]
 ---
 

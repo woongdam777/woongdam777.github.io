@@ -2,7 +2,7 @@
 title: oracle cloud 설정
 author: w
 date: 2024-02-08 16:53:00 +0800
-categories: [practice, oracle]
+categories: [cloud, oracle]
 tags: [oracle, cloud, docker]
 ---
 

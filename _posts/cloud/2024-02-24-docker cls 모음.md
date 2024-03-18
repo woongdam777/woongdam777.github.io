@@ -2,7 +2,7 @@
 title: docker cls 모음
 author: w
 date: 2024-02-24 18:23:00 +0800
-categories: [practice, docker]
+categories: [cloud, docker]
 tags: [practice, docker]
 img_path: /assets/img/post/
 ---
@@ -38,16 +38,23 @@ sudo apt-get install docker.io
 - install: 패키지 관리자를 통해 새로운 패키지를 설치하는 명령
 - docker.io: Docker 패키지의 이름 이 명령은 패키지 관리자를 통해 Docker를 설치
 
-
+### 자주 쓰는 명령어
 
 ```bash
 docker <SUBCOMMAND> (<OPTIONS>)
 docker run (<OPTIONS>) <IMAGENAME> (<COMMAND>)
-
 docker ps
 docker ps -a
-docker image
-
+docker image ls
 docker stop <IMAGENAME>
-
+docker rm
 ```
+
+```bash
+docker run --name my-mysql-container -e MYSQL_ROOT_PASSWORD=mysecretpassword -d -p 3306:3306 mysql:8.0
+```
+- --name my-mysql-container: 컨테이너에 my-mysql-container라는 이름부여  
+- -e MYSQL_ROOT_PASSWORD=1234: MySQL 루트 사용자의 비밀번호를 1234로 설정합니다.
+- -d: 컨테이너를 백그라운드에서 실행
+- -p 3306:3306: 호스트의 3306 포트를 컨테이너의 3306 포트로 포워딩
+- mysql:8.0: Docker Hub에서 제공하는 MySQL 8.0 이미지를 사용하여 컨테이너를 생성, 실행

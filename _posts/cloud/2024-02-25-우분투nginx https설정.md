@@ -2,7 +2,7 @@
 title: 우분투nginx https설정
 author: w
 date: 2024-02-25 19:23:00 +0800
-categories: [practice, server]
+categories: [cloud, server]
 tags: [practice, docker]
 img_path: /assets/img/post/
 ---
