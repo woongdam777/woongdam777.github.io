@@ -2,7 +2,7 @@
 title: mysql백업 및 복원(docker)
 author: w
 date: 2024-03-09 16:23:00 +0800
-categories: [cloud, database]
+categories: [cloud, oracle]
 tags: [practice, docker, mysql]
 img_path: /assets/img/post/
 ---
