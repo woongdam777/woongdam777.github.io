@@ -46,4 +46,4 @@ String result = sb.toString(); // "Hello world"
 
 String은 불변한 문자열을 다루며, StringBuilder와 StringBuffer는 가변한 문자열을 다룹니다. 그리고 StringBuilder는 단일 스레드 환경에서, StringBuffer는 멀티 스레드 환경에서 사용하는 것이 적합합니다.
 
-### [면접 질문 모음](/posts/면접-질문-모음)
+- [면접 질문 모음](/posts/면접-질문-모음)
