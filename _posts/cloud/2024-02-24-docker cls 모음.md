@@ -38,6 +38,11 @@ sudo apt-get install docker.io
 - install: 패키지 관리자를 통해 새로운 패키지를 설치하는 명령
 - docker.io: Docker 패키지의 이름 이 명령은 패키지 관리자를 통해 Docker를 설치
 
+### 도커 컴포즈 설치
+```bash
+sudo apt-get install docker-compose
+```
+
 ### 자주 쓰는 명령어
 
 ```bash
