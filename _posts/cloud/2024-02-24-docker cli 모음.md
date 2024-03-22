@@ -1,5 +1,5 @@
 ---
-title: docker cls 모음
+title: docker cli 모음
 author: w
 date: 2024-02-24 18:23:00 +0800
 categories: [cloud, docker]
