@@ -12,7 +12,7 @@ img_path: /assets/img/post/
 ### 준비물
 - 오라클 클라우드 인스턴트 생성 후 Putty나 MobaXterm으로 ssh키 접속
   - ubuntu 기본적인 세팅 -> [오라클 클라우드 세팅](/posts/오라클-클라우드-세팅/)
-  - docker & docker-compose 설치 / 포트열기 -> [docker cls 모음](/posts/docker-cls-모음/)
+  - docker & docker-compose 설치 / 포트열기 -> [docker cli 모음](/posts/docker-cli-모음/)
 
 ### 명령어 모음
 ```bash
